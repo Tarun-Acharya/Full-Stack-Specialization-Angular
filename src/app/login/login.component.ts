@@ -7,7 +7,7 @@ import {MatDialog, MatDialogRef} from '@angular/material/dialog';
 })
 export class LoginComponent implements OnInit {
 
-  user = {remember: false};
+  user = {username: '', password: '', remember: false};
 
   constructor(public dialogRef: MatDialogRef<LoginComponent>) { }
 
@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log("User: ", this.user);
+    console.log('User: ', this.user);
     this.dialogRef.close();
   }
 
