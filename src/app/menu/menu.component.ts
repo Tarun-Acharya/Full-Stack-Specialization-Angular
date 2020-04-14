@@ -20,7 +20,7 @@ export class MenuComponent implements OnInit {
   errMess:string;
  
   constructor(private dishService: DishService,
-    @Inject('BaseURL') private BaseURL) { }
+    @Inject('BaseURL') public BaseURL) { }
      
   ngOnInit(): void {
     this.dishService.getDishes()
