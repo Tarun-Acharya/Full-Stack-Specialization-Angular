@@ -1,0 +1,48 @@
+char to ascii value
+(int) c
+math library
+java.lang.Math
+check cyclic permutation
+add the string to itself and check if 2nd string is substring
+char to string
+Character.toString()
+circular array rotation
+make temp array of size d
+for continuous swapping
+make a list of indices of elements
+to create queue
+Queue<Integer> q = new LinkedList<>(); 
+-->
+Learn queue interface
+	stack interface
+	hashmap interface
+	arrayList interface
+	hashset interface
+	arrays interface
+	string interface
+	Character
+	Integer
+	Long
+	Double
+	Binary
+	float
+	iterater
+	Math
+	round off and round to n decimals
+	all conversions
+	if a d or ud graph is cyclic
+	collections
+	boxing
+	patterns
+	comparator
+learn level order print
+for n*m matrix
+flattened is i*m+j
+to sort arraylist
+Collections.sort(arr)
+to round of to 2 places
+Math.round(d*100.0)/100.0
+to delete a char from string
+deleteCharAt(index)
+char to int
+Character.getNumericValue(c)
